@@ -1,0 +1,16 @@
+Desenvolver um sistema de gerenciamento de recursos humanos (RH) utilizando Java, com uma interface de linha de comando para interação com o usuário. O sistema deve permitir o cadastro, atualização, remoção e listagem de funcionários em uma empresa, armazenando os dados em um ArrayList.
+Nesse projeto abordaremos os seguintes conceitos:
+Implementar herança para criar uma hierarquia de classes que representem diferentes tipos de funcionários (por exemplo, gerentes, técnicos, administrativos).
+Aplicar polimorfismo, permitindo comportamentos específicos em subclasses através de métodos sobrescritos.
+Utilizar modificadores de acesso (private, protected, public) para encapsular os dados, assegurando que sejam acessados e modificados de forma controlada.
+Criar uma interface de linha de comando para interação com o sistema, onde os conceitos de orientação a objetos serão aplicados na prática.
+Especificações Técnicas:
+Classe Base Funcionário: Deve conter atributos comuns como nome, ID, salário e métodos para exibir e manipular essas informações.
+Classes Derivadas: Criar subclasses como Gerente e Técnico, com atributos e métodos específicos, além dos herdados.
+Polimorfismo: Implementar métodos sobrescritos nas subclasses para funcionalidades específicas, como cálculo de bônus ou descrição de tarefas.
+Encapsulamento e Modificadores de Acesso: Usar métodos getter e setter para acessar e modificar os atributos privados, aplicando conceitos de encapsulamento.
+Interface de Linha de Comando: Desenvolver uma CLI para gerenciar as operações de cadastro, edição, remoção e listagem de funcionários, utilizando menus textuais e comandos específicos.
+Armazenamento de Dados: Utilizar um ArrayList para armazenar e gerenciar os objetos de funcionários dentro do sistema.
+Divida seus códigos em pacotes.
+Entrega:
+O sistema deve ser entregue na forma de um projeto Java, contendo todo o código-fonte e uma documentação que explique como interagir com a CLI, além de detalhar a estrutura de classes e o design do sistema. A avaliação levará em conta a implementação efetiva dos conceitos de orientação a objetos, a funcionalidade e usabilidade da CLI, e a organização e qualidade do código e da documentação

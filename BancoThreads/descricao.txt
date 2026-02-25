@@ -1,0 +1,37 @@
+Desenvolver um programa em Java que simule o processamento de transações bancárias utilizando threads para realizar operações de depósito e saque em contas correntes simultaneamente. O objetivo é demonstrar como as threads podem ser usadas para gerenciar tarefas concorrentes e sincronizar o acesso a recursos compartilhados.
+Cenário
+Uma aplicação bancária deve processar múltiplas transações (depósitos e saques) em várias contas correntes. Cada conta corrente deve garantir a consistência dos saldos, mesmo quando múltiplas transações ocorrem simultaneamente.
+Requisitos
+Conta Corrente (ContaBancária)
+Deve ter um saldo inicial.
+Métodos para depositar e sacar dinheiro.
+Os métodos de depósito e saque devem ser sincronizados para garantir a consistência do saldo.
+Transações (Transactions)
+Crie duas classes: uma para depósitos (ThreadDeposito) e outra para saques (ThreadSaque).
+Ambas as classes terão atributos do tipo ContaBancária, onde serão feitas as operações de saque e depósito.
+Cada classe deve implementar a interface Runnable e realizar a operação correspondente em uma conta específica.
+Execução de Threads
+Crie um conjunto de contas correntes.
+Crie múltiplas threads para realizar depósitos e saques em cada conta.
+Assegure-se de que as operações sejam realizadas de forma concorrente e sincronizada.
+Instruções
+Definição da Classe ContaBancária
+Crie a classe ContaBancária com os seguintes membros:
+Um campo saldo para armazenar o saldo da conta.
+Um construtor para inicializar o saldo.
+Métodos depositar(double quantia) e sacar(double quantia), ambos sincronizados para garantir a consistência do saldo.
+Criação das Tarefas de Depósito e Saque
+Crie a classe ThreadDeposito que implementa Runnable:
+Esta classe deve ter um campo para a conta e um campo para a quantia a ser depositada.
+No método run(), deve chamar o método depositar da conta.
+Crie a classe ThreadSaque que implementa Runnable:
+Esta classe deve ter um campo para a conta e um campo para a quantia a ser sacada.
+No método run(), deve chamar o método sacar da conta.
+Execução das Threads
+No método main da aplicação:
+Crie uma ou mais instâncias de ContaBancária.
+Crie várias instâncias de Thread, cada uma executando uma instância de ThreadDeposito ou ThreadSaque.
+Inicie todas as threads e utilize o método join para garantir que todas as threads sejam concluídas antes de exibir o saldo final de cada conta.
+Teste de Consistência
+Realize diversos testes com diferentes quantias e ordens de transações para verificar a consistência dos saldos das contas após todas as transações serem processadas.
+Retire a sincronização dos métodos e realize um teste para simular uma inconsisetência no saldo da conta.

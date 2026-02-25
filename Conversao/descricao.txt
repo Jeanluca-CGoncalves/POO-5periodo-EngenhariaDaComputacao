@@ -1,0 +1,2 @@
+Crie um programa com duas classes, TemperatureConverter e TemperatureConverterTester. A classe TemperatureConverter deve ter métodos estáticos para converter a temperatura de Celsius para Fahrenheit e vice-versa. A classe TemperatureConverterTester deve demonstrar o uso desses métodos estáticos.
+

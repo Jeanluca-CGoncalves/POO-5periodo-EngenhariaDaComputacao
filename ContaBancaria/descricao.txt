@@ -1,0 +1,1 @@
+Crie um programa com duas classes, BankAccount e BankAccountTester. A classe BankAccount deve ter atributos para número e saldo da conta e métodos para depositar, sacar e exibir saldo. A classe BankAccountTester deve demonstrar o uso desses métodos criando um objeto BankAccount, realizando transações e exibindo o saldo.

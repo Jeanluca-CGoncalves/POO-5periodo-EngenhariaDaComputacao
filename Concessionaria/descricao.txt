@@ -1,0 +1,7 @@
+Suponha que você esteja desenvolvendo um sistema para uma concessionária de veículos. Neste sistema, você tem diferentes tipos de veículos, como "Carro", "Caminhão" e "Moto", cada um com suas próprias características específicas, como modelo, marca, ano de fabricação e número de portas (para carros), capacidade de carga (para caminhões) e cilindrada (para motos).
+Seu exercício é implementar este sistema utilizando herança e polimorfismo. Aqui estão as instruções:
+Crie uma classe Veiculo como a superclasse com os atributos comuns a todos os veículos, como modelo, marca e anoFabricacao, além de um método imprimirDetalhes() que imprime esses atributos.
+Crie três subclasses de Veiculo: Carro, Caminhao e Moto. Cada uma dessas subclasses deve ter seus próprios atributos específicos, como numPortas para carros, capacidadeCarga para caminhões e cilindrada para motos.
+Sobrescreva o método imprimirDetalhes() em cada subclasse para imprimir os detalhes específicos do veículo, além dos detalhes herdados da superclasse.
+Na classe principal (Main), crie uma lista de Veiculo e adicione instâncias de diferentes tipos de veículos (por exemplo, um carro, um caminhão e uma moto).
+Percorra a lista e chame o método imprimirDetalhes() para cada veículo. Verifique se os detalhes específicos de cada tipo de veículo são exibidos corretamente.

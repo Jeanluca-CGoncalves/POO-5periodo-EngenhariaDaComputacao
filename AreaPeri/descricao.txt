@@ -1,0 +1,1 @@
+Crie um programa com duas classes, Rectangle e RectangleTester. A classe Rectangle deve ter os seguinte atributos: comprimento e largura e métodos para calcular área e perímetro. A classe RectangleTester deve demonstrar o uso desses métodos criando um objeto Rectangle, definindo suas dimensões e, em seguida, imprimindo sua área e perímetro.
